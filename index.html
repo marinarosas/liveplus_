@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Plus - Eventos Online</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fakeBody">
+    <header>
+        <img id="logoEventPlus" src="./asset/Logo-removebg-preview.png" alt= "Logo Event Plus"/>
+        <nav>
+            <ul id="menuNav">
+              <li><a class="itemNav" id="nav1" href="#">Página inicial</a></li>
+              <li><a class="itemNav" id="nav2" href="#">Eventos</a></li>
+              <li><a class="itemNav" id="nav3" href="#">Sobre</a></li>
+              <li><a class="itemNav" id="nav4" href="#">Contato</a></li>
+            </ul>
+          </nav>
+        <div id="buscador">
+            <input type="text" id="nome" onclick="devolverPesquisaEvento ()" placeholder="Pesquise o evento...">
+        </div>
+        <button id="botaoPesquisa" onclick="selecionarEvento()">
+            <img id="lupa"src="./asset/icone-loupe-orange-removebg-preview.png" alt="lupa">
+        </button>
+        <div id="usuarioTodo">  
+            <img id="imagemUsuario" src="./asset/Untitled_design__1_-removebg-preview.png" alt="usuario"/>
+            <h3 id="boasVindas">Boas vindas!</h3>
+        </div>
+    </header>
+    <main>
+        <div id="tituloPg">
+            <h1>Eventos</h1>
+            <div id="linhaVertical"></div>
+        </div>
+         <div class="geralEventos">    
+            <section class="todosEventos" id="removerEvento1">
+            <div class="flipCard">
+
+                <div class="flipCardFront">
+                    <h2 class="tituloH2"></h2>
+                    <img class="imagem" src="./asset/Francisco-El-Hombre1.jpeg" alt="Imagem da Brisa"/>
+
+                     <article class="tabelaLista">
+                        <ul class="listaEvento">
+                            <!-- Esta no JS -->
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="flipCardBack">
+                    <h2 class="tituloH2Back">FRANCISCO EL HOMBRE</h2>
+                    <video src="/asset/francisco, el hombre - La Pachanga! (Videoclipe OFICIAL - 2015).mp4" controls class="videoBack"></video>
+                        
+                <div class="listaIngressoVenda">
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Online: R$50,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista: R$100,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista Vip: R$500,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Arquibancada: R$120,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Camarote: R$150,00</label>     
+                    </div>  
+
+                </div>
+                    <div>  
+                     <button class="botaoComprar">Comprar Ingresso</button>
+                    </div>  
+                </div>
+
+            </div>
+            </section>
+            <section class="todosEventos" id="removerEvento2">
+            <div class="flipCard">
+
+                <div class="flipCardFront">
+                    <h2 class="tituloH2"></h2>
+                    <img class="imagem" src="./asset/IMG_3350.jpg" alt="Imagem da Brisa"/>
+
+                     <article class="tabelaLista">
+                        <ul class="listaEvento">
+                            <!-- Esta no JS -->
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="flipCardBack">
+                    <h2 class="tituloH2Back">GUITAURA MEDIEVAL</h2>
+                    <video src="/asset/GUITAURA MEDIEVAL - SOLOMON'S FIRE (OFFICIAL MUSIC VIDEO).mp4" controls class="videoBack"></video>
+
+                <div class="listaIngressoVenda">
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Online: R$50,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista: R$100,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista Vip: R$500,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Arquibancada: R$120,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Camarote: R$150,00</label>     
+                    </div>  
+
+                </div>   
+                    <div>  
+                        <button class="botaoComprar">Comprar Ingresso</button>
+                    </div>                 
+                </div>
+
+            </div>
+            </section>
+            <section class="todosEventos" id="removerEvento3">
+            <div class="flipCard">
+
+                <div class="flipCardFront">
+                    <h2 class="tituloH2"></h2>
+                    <img class="imagem" src="./asset/plutao01.jpeg" alt="Imagem da Brisa"/>
+
+                     <article class="tabelaLista">
+                        <ul class="listaEvento">
+                            <!-- Esta no JS -->
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="flipCardBack">
+                    <h2 class="tituloH2Back">PLUTÃO JÁ FOI PLANETA</h2>
+                    <video src="/asset/Plutão Já Foi Planeta - Você Não É Mais Planeta (Som Sem Plugs).mp4" controls class="videoBack"></video>
+
+                <div class="listaIngressoVenda">
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Online: R$50,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista: R$100,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista Vip: R$500,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Arquibancada: R$120,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Camarote: R$150,00</label>     
+                    </div>  
+
+                </div>   
+                    <div>  
+                        <button class="botaoComprar">Comprar Ingresso</button>
+                    </div> 
+                </div>
+
+            </div>
+            </section>
+            <section class="todosEventos" id="removerEvento4">
+            <div class="flipCard">
+
+                <div class="flipCardFront">
+                    <h2 class="tituloH2"></h2>
+                    <img class="imagem" src="./asset/emicida-grid.webp" alt="Imagem da Brisa"/>
+
+                     <article class="tabelaLista">
+                        <ul class="listaEvento">
+                            <!-- Esta no JS -->
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="flipCardBack">
+                    <h2 class="tituloH2Back">EMICIDA</h2>
+                    <video src="/asset/Emicida - AmarElo (Sample- Belchior - Sujeito de Sorte) part. Majur e Pabllo Vittar.mp4" controls class="videoBack"></video>
+
+                <div class="listaIngressoVenda">
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Online: R$50,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista: R$100,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Pista Vip: R$500,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Arquibancada: R$120,00</label> <br>
+                    </div>
+                    <div class="labelInput">
+                        <input type="number" id="radioButton"/> 
+                        <label from="radioButton">Camarote: R$150,00</label>     
+                    </div>  
+
+                </div>   
+                    <div>  
+                        <button class="botaoComprar">Comprar Ingresso</button>
+                    </div> 
+                </div>
+
+            </div>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div id="nomeMarina">Marina Rosas Rachid Jaudy</div>
+            <div id="imagemFooter"> 
+            <a href="https://github.com/MJFreedom"> <img id="github" src="./asset/logogithub-removebg-preview.png"></a>
+            <a href="https://www.linkedin.com/in/marina-jaudy-599b11a9/"> <img id="likendin" src="./asset/LogoLinkedin.png" ></a>
+            </div>
+            <div id="ano2022">2022</div>
+    </footer>
+</div>
+</body>
+</html>
